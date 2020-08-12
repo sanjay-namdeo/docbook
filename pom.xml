@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.book.doctor</groupId>
     <artifactId>docbook</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>docbook</name>
     <description>Demo project for Spring Boot</description>
 
@@ -42,7 +42,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/sanjay-namdeo/docbook.git</developerConnection>
-      <tag>docbook-0.0.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
