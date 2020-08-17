@@ -12,6 +12,15 @@ public class Appointment extends BaseEntity {
     @OneToOne
     private Patient patient;
 
+    public Appointment() {
+    }
+
+    public Appointment(final Doctor doctor, final Patient patient, final LocalDate date) {
+        this.doctor = doctor;
+        this.patient = patient;
+        this.date = date;
+    }
+
     private LocalDate date;
 
     public Doctor getDoctor() {
